@@ -1,0 +1,10 @@
+language: go
+go:
+  - 1.13.x
+  - master
+
+install:
+  - export GO111MODULE=on
+  - export mode=test
+  - go mod download
+  - go test -v ./...

@@ -1,0 +1,6 @@
+[server]
+mode = "release"
+
+[database]
+dialect = "sqlite3"
+DSN = "file::memory:?cache=shared"
